@@ -64,9 +64,9 @@ const Home = ({navigation}) => {
           </View>
         </Pressable>
 
-        <View style={[styles.shadow, {height: 200, marginTop: 16, shadowOpacity: 0.24}]}>
+        <View style={[styles.shadow, {marginTop: 16, shadowOpacity: 0.24}]}>
           <View style={{borderRadius: 16, overflow:'hidden'}}>
-            <YoutubePlayer height={200} videoId={'xRuKxTMyONA'} />
+            <YoutubePlayer height={'200'} videoId={'cM513Vm5430'} />
           </View>
         </View>
 
